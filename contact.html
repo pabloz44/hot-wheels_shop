@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us - Hot Wheels Dealership</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4703b017ee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <a class="header__logo" href="index.html"
+        ><img src="img/hot-wheels_logo.png" alt=""
+      /></a>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main--contact">
+      <section class="form-section">
+        <h2 class="form-section__title">Contact us</h2>
+        <form class="form-section__form">
+          <input
+            class="form-section__input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name*"
+            required
+          />
+
+          <input
+            class="form-section__input"
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Last name"
+          />
+
+          <input
+            class="form-section__input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email*"
+            required
+          />
+
+          <input
+            class="form-section__input"
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Phone"
+          />
+
+          <input
+            class="form-section__input"
+            type="text"
+            id="address"
+            name="address"
+            placeholder="Address"
+          />
+
+          <div class="form-section__date">
+            <label for="birthdate">Birthdate</label>
+            <input
+              type="date"
+              id="birthdate"
+              name="birthdate"
+              placeholder="Last name"
+            />
+          </div>
+
+          <select class="form-section__select" id="country" name="country">
+            <option value="Select a country">Select a country</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Chile">Chile</option>
+          </select>
+
+          <textarea
+            class="form-section__textarea"
+            id="comment"
+            name="comment"
+            placeholder="Comment*"
+            required
+          ></textarea>
+
+          <button class="form-section__submit" type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__info">
+        <address>
+          <p>Villa Libertador San Martin</p>
+          <p>Victor Hugo 145</p>
+          <p>Departamento Diamante, Argentina</p>
+        </address>
+      </section>
+      <div class="footer__copyright">
+        <p>Aguilar Pablo, Müller Valentina © 2023 Hot Wheels Autos</p>
+      </div>
+    </footer>
+  </body>
+</html>
